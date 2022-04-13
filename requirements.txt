@@ -10,3 +10,4 @@ nltk
 newspaper3k
 htmldate
 textblob
+flask_material==0.1.1
