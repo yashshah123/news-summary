@@ -8,6 +8,7 @@ import joblib
 import numpy as np
 
 nltk.download('punkt')
+nltk.download('wordnet')
 news_classification = joblib.load('data/news_classification.pkl')
 loaded_vectorizer = joblib.load(open('data/vectorizer.pickle', 'rb'))
 
